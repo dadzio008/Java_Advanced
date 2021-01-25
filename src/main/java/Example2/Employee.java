@@ -9,10 +9,6 @@ public class Employee extends Person {
         this.salary = salary;
     }
 
-    public Employee(String jan, String kowalski, int age) {
-        super();
-    }
-
     public int getSalary() {
         return salary;
     }

@@ -1,5 +1,6 @@
 package Example2;
 
+
 public class JavaDeveloper extends Employee {
 
     private String[] knownTechnologies;
@@ -15,5 +16,13 @@ public class JavaDeveloper extends Employee {
 
     public void setKnownTechnologies(String[] knownTechnologies) {
         this.knownTechnologies = knownTechnologies;
+    }
+    @Override
+    public void describe() {
+        System.out.println("I am senior Java Developer. Nazywam się" + getName()
+                + " " + getSurname() + " mam"
+                + " " + getAge() + "znam"
+                + " " + getKnownTechnologies() + "technologie"
+        );
     }
 }
