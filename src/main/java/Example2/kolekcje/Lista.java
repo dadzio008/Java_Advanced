@@ -10,11 +10,9 @@ public class Lista {
 
         Scanner scan = new Scanner(System.in);
         List<Integer> list = new LinkedList<>();
-        list.add(scan.nextInt());
-        list.add(scan.nextInt());
-        list.add(scan.nextInt());
-        list.add(scan.nextInt());
-        list.add(scan.nextInt());
+        for (int i = 0; i < 5; i++) {
+            list.add(scan.nextInt());
+        }
         System.out.println(list);
     }
 
