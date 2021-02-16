@@ -1,0 +1,5 @@
+package OOPzadania.Ex2;
+
+public enum Typ {
+    LICENCJAT, INŻYNIER, MAGISTER, DOKTOR, DOKTOR_HABILITOWANY, PROFESSOR
+}
