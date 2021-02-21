@@ -1,4 +1,4 @@
-package OOPzadania.Ex3;
+package OOPzadania.Ex3and4;
 
 public class Circle extends Shape{
     float radiusattribute;
@@ -21,10 +21,14 @@ public class Circle extends Shape{
     public void setRadiusattribute(float radiusattribute) {
         this.radiusattribute = radiusattribute;
     }
-    public float getArea(){
+
+    @Override
+    public double getArea(){
         return (float) (Math.PI * radiusattribute * radiusattribute);
     }
-    public float getPerimeter(){
+
+    @Override
+    public double getPerimeter(){
         return (float) (2 * Math.PI * radiusattribute);
     }
 

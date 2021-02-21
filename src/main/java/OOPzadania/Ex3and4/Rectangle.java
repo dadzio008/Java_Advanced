@@ -1,4 +1,4 @@
-package OOPzadania.Ex3;
+package OOPzadania.Ex3and4;
 
 public class Rectangle extends Shape {
     double width;
@@ -32,11 +32,11 @@ public class Rectangle extends Shape {
     public void setLength(double length) {
         this.length = length;
     }
-
+@Override
     public double getArea() {
         return (float) (length * width);
     }
-
+@Override
     public double getPerimeter() {
         return ((2 * length) + (2 * width));
     }

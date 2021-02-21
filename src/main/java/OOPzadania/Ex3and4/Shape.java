@@ -1,8 +1,8 @@
-package OOPzadania.Ex3;
+package OOPzadania.Ex3and4;
 
-public class Shape {
-    String color;
-    boolean isFilled;
+public abstract class Shape {
+    protected String color;
+    protected boolean isFilled;
 
     public Shape() {
         this.color = "unknown";
@@ -29,6 +29,9 @@ public class Shape {
     public void setFilled(boolean filled) {
         isFilled = filled;
     }
+
+    public abstract double getPerimeter();
+    public abstract double getArea();
 
     @Override
     public String toString() {

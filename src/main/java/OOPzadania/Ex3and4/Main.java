@@ -1,4 +1,4 @@
-package OOPzadania.Ex3;
+package OOPzadania.Ex3and4;
 
 public class Main {
     public static void main(String[] args) {

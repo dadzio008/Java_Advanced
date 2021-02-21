@@ -1,4 +1,4 @@
-package OOPzadania.Ex3;
+package OOPzadania.Ex3and4;
 
 public class Square extends Rectangle{
     public Square(String color, boolean isFilled, double size) {
